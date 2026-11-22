@@ -1,0 +1,15 @@
+# Durable queues, HTML, MP3, SQLite databases, and intentional backups are tracked.
+# Only local credentials and disposable/runtime artifacts are excluded.
+.DS_Store
+._*
+.env
+.env.*
+.local/
+logs/
+runtime/
+*.lock
+*-wal
+*-shm
+*-journal
+.download-*
+.words-*
